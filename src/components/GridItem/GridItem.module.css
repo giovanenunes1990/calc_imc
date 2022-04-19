@@ -1,0 +1,64 @@
+.parameters_item {
+    min-width: 23%;
+    text-align: center;
+}
+
+.item_component {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 9px;
+    width: 100%;
+    min-height: 100%;
+    color: white;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.yourImc {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1040px) {
+    .parameters_item {
+        width: 46%;
+        margin: 8px 4px;
+    }
+
+    .info p {
+        word-wrap: break-word;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .parameters_item {
+        width: 44%;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+}
